@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_back"
+        android:icon="@drawable/ic_chevron_left_black_24dp"
+        android:title="Back"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_forward"
+        android:icon="@drawable/ic_chevron_right_black_24dp"
+        android:title="Forward"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_history"
+        android:title="History" />
+</menu>
